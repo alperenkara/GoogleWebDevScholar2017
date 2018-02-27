@@ -1,0 +1,92 @@
+/* add your CSS here */
+
+input[type = button],input[type=submit], button{
+  background-color: #40405ea1;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+
+  display: block;
+  margin: auto;
+  margin-bottom: 5%;
+
+  
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+input[type = button]:active,input[type=submit]:active ,button ,.information:active{
+  background-color: darkslategrey;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+
+  border-width: 1px;
+
+  opacity: 0.95;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.general{
+  display: block;
+  align-items: center;
+  justify-content: center;
+
+
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+
+
+  border-style: dashed;
+  border-width: 1px;
+  border-radius : 5px;
+  padding: 5px;
+  width: 500px;
+  background-color :transparent ;
+
+}
+.information {
+  opacity: 0.9;
+  background-color:olive;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius : 5px;
+}
+.animalname{
+  
+  text-align: center;
+  border-style:dashed;
+  border-width: 1px;
+  border-radius : 5px;
+  
+}
+.image {
+  
+  width:250px; 
+  height:auto;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-style: dashed;
+  border-width: 1px;
+  border-radius : 50%;
+}
+.interesting {
+  font-style: italic;
+  text-align: justify;
+  border-style:dashed;
+  border-width: 1px;
+  border-radius : 5px;
+}
+.list {
+  font-weight: bold;
+  border-style:dashed;
+  border-width: 1px;
+  border-radius : 5px;
+}
